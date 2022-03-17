@@ -10,7 +10,7 @@ class App extends React.Component {
     const randomIndex = Math.floor(Math.random() * 5757);
     const targetWord = wordDictionary[randomIndex];
     this.state = {
-      word: "fridd",
+      word: targetWord,
       currentTry: ["", "", "", "", ""],
       turn: 0,
     };
